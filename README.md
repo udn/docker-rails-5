@@ -35,4 +35,4 @@ Run your image with this command `docker-compose up`
 # How to Contribute this project
 - Fork this project
 - Please create Pull Request
-- Further information udnpico<at>gmail.com
+- Further information udnpico@gmail.com
