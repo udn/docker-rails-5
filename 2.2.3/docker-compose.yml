@@ -1,0 +1,10 @@
+version: '2'
+services:
+  app:
+    image: "docker-rails-5:0.0.1"
+    build: .
+    command: bin/rails server --port 3000 --binding 0.0.0.0
+    ports:
+      - "3000:3000"
+    volumes:
+      - .:/rails-app
